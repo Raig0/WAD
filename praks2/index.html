@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="res/images/favicon.ico">
+    <title>My Dashboard</title>
+  </head>
+  <body>
+    <header>
+    <strong>Welcome to your dashboard!</strong>
+    </header>
+    <section>
+    <div>
+        <img src="res/images/maxima.jpeg" width="128" height="128" alt="My picture">
+    </div>
+    <div>
+        <ul>
+            <li>Raigo Leesment</li>
+            <li> A date following this format 09/29/2025</li>
+            <li> Software Engineering </li>
+        </ul>
+    </div>
+    <div>
+        <strong>2.65</strong>
+    </div>
+</section>
+<section>
+    <h1>Courses</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>#</th>
+            <th>Course Title</th>
+            <th>Semester</th>
+            <th>Grade</th>
+            <th>Link to the course</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>Agile software development</td>
+            <td>fall</td>
+            <td>82</td>
+            <td>
+                <ul>
+                    <li>
+                        <a href="https://courses.cs.ut.ee/2025/ASD/fall">Agile software development</a>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td> Systems modelling </td>
+            <td>fall</td>
+            <td>85</td>
+            <td>
+                <ul>
+                    <li>
+                        <a href="https://courses.cs.ut.ee/2025/systemsmodelling/fall">Systems modelling</a>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td> Requirements Engineering </td>
+            <td>fall</td>
+            <td>99</td>
+            <td>
+                <ul>
+                    <li>
+                        <a href="https://courses.cs.ut.ee/2025/SPM/fall">Requirements Engineering</a>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td> Human Computer Interaction </td>
+            <td>fall</td>
+            <td>65</td>
+            <td>
+                <ul>
+                    <li>
+                        <a href="https://courses.cs.ut.ee/2025/stratskills/fall">Human Computer Interaction</a>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>300</td>
+            </tr>
+        </tfoot>
+    </table>
+</section>
+    <footer>
+    <ul>
+        <li>
+            <a href="https://ois2.ut.ee/">OIS</a>
+        </li>
+        <li>
+            <a href="https://courses.cs.ut.ee/">Courses</a>
+        </li>
+    </ul>
+</footer>
+<form>
+    <label for="ctitle">Course Title:</label><br>
+    <input type="text" id="ctitle" title="ctitle"><br>
+    <p>Semester:</p>
+    <select>
+        <option value="fall">Fall</option>
+        <option value="spring">Spring</option>
+    </select>
+    <p>Attendance</p>
+    <input type="radio" id="vr" name="vir" value="Virtual">
+    <label for="vr">Virtual attendance</label><br>
+    <input type="radio" id="py" name="phy" value="Physical">
+    <label for="py">Physical attendance</label><br>
+    <input type="submit" value ="Submit">
+</form>
+  </body>
+</html>
